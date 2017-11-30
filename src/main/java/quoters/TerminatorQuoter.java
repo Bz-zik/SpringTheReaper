@@ -6,6 +6,10 @@ public class TerminatorQuoter implements Quoter {
 
     private String message;
 
+    public TerminatorQuoter() {
+        System.out.println(repeat);
+    }
+
     public void setMessage(String message) {
         this.message = message;
     }
